@@ -1,8 +1,8 @@
 # Replication Package: The Effect of Intellectual Property Courts on Foreign Investment in China
 
-> **[YOUR PAPER TITLE]**  
-> [YOUR NAME(S)] · [INSTITUTION] · [YEAR]  
-> Contact: [YOUR EMAIL]
+> **Protecting Investments: The Effects of Stricter Intellectual Property Enforcement from a Specialized Court Reform on China’s Foreign Investment**  
+> Anne Behme · Minerva University · 2026 
+> Contact: behme@uni.minerva.edu
 
 ---
 
@@ -10,7 +10,7 @@
 
 This repository contains the replication package for the synthetic control analysis of China's Intellectual Property Courts (IPCs) and their effect on foreign total investment (FTI) at the province level.
 
-The analysis covers 31 Chinese provinces over 2000–2016 and focuses on two treated provinces — **Beijing** and **Guangdong** — which received IPC establishment in 2014. The main method is the **Synthetic Control Method** (Abadie, Diamond & Hainmueller 2010), implemented via the `Synth` R package.
+The analysis covers 31 Chinese provinces over 2000–2016 and focuses on two treated provinces, **Beijing** and **Guangdong**, which received IPC establishment in 2014. The main method is the **Synthetic Control Method** (Abadie, Diamond & Hainmueller 2010), implemented via the `Synth` R package.
 
 ---
 
@@ -177,14 +177,7 @@ writeLines(capture.output(sessionInfo()), "session_info.txt")
 
 ---
 
-## Citation
-
-If you use this replication package, please cite:
-
-> [YOUR FULL CITATION HERE]
-
----
-
 ## License
 
-[e.g., MIT License / CC BY 4.0 — choose one and add a LICENSE file]
+MIT License 
+Copyright (c) 2025 Anne Behme
